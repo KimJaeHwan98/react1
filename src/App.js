@@ -65,7 +65,7 @@ function 함수(){
   return (
 <div className="App">
     <div className="black-nav"> 
-    <h4>ReactBlog</h4>
+    <h4>KREAM</h4>
     </div>
     <button onClick={()=>{
       let copy = [...글제목];
@@ -96,7 +96,7 @@ function 함수(){
       {
         글제목.map(function(a,i){
           return (<div className='list' key={i}>
-          <h4 onClick={()=>{setModal(!modal); settitle(i)}}>{글제목[i]} 
+         <h4 onClick={()=>{setModal(!modal); settitle(i)}}>{글제목[i]} 
           <span onClick={(e)=>{
             
             let copy = [...따봉];
